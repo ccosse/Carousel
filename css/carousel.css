@@ -37,7 +37,8 @@
   width: 150px;
   height: 183px;
   left: 10px;
-  border: 1px solid #696;
+  border: 1px solid #2F2;
+	backface-visibility: hidden;
 }
 #carousel figure:nth-child(1) { -webkit-transform: rotateY(0deg) translateZ(505px); }
 #carousel figure:nth-child(2) { -webkit-transform: rotateY(18deg) translateZ(505px); }
